@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_layout"
+    app:startDestination="@id/locationFragment">
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.rakesh.myweatherapp.LocationFragment"
+        android:label="LocationFragment"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/fiveDaysFragment"
+        android:name="com.rakesh.myweatherapp.FiveDaysFragment"
+        android:label="FiveDaysFragment"
+        tools:layout="@layout/fragment_five_days"/>
+
+</navigation>
